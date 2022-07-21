@@ -14,7 +14,7 @@ function CommentForm({ submitCommentForm }) {
   }
 
   function handleChange(event) {
-    setText(event.target.value),
+    setText(event.target.value)
   }
 
   return (
