@@ -1,1 +1,27 @@
+.postDisplay {
+  position: relative;
+}
 
+.postDisplayRight {
+  position: absolute;
+  right: 0;
+  top: 1em;
+  text-align: right;
+}
+
+.postDisplayRight i {
+  margin-left: 1em;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.postComments {
+  margin-top: 2em;
+  padding-top: 0.5em;
+  border-top: solid 1px gray;
+}
